@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services – Apexify</title>
+  <meta name="description" content="Explore Apexify's full range of services including web development, UI/UX design, digital marketing, and consulting." />
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo.svg" alt="Apexify logo" width="36" height="36" />
+        Apexify
+      </a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" role="menu">
+      <a href="index.html" role="menuitem">Home</a>
+      <a href="about.html" role="menuitem">About</a>
+      <a href="services.html" role="menuitem">Services</a>
+      <a href="contact.html" role="menuitem">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ===== Page Hero ===== -->
+    <section class="page-hero" aria-label="Services page hero">
+      <div class="container">
+        <h1>Our Services</h1>
+        <p>End-to-end digital solutions designed to help your business thrive in a connected world.</p>
+      </div>
+    </section>
+
+    <!-- ===== Services List ===== -->
+    <section class="services-list" aria-label="Service details">
+      <div class="container">
+
+        <!-- Service 1 -->
+        <div class="service-item">
+          <div class="service-image">
+            <img src="images/service1.svg" alt="Web development illustration" width="560" height="320" />
+          </div>
+          <div class="service-content">
+            <h2>Web Development</h2>
+            <p>
+              We build fast, secure, and scalable websites and web applications tailored to your specific goals.
+              From simple landing pages to complex e-commerce platforms, we bring your vision to life with clean,
+              maintainable code.
+            </p>
+            <ul>
+              <li>Custom HTML, CSS &amp; JavaScript</li>
+              <li>Responsive, mobile-first layouts</li>
+              <li>CMS integration (WordPress, Contentful)</li>
+              <li>E-commerce &amp; payment gateways</li>
+              <li>Performance and accessibility audits</li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary">Request a Quote</a>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-item reverse">
+          <div class="service-image">
+            <img src="images/service2.svg" alt="UI/UX design illustration" width="560" height="320" />
+          </div>
+          <div class="service-content">
+            <h2>UI / UX Design</h2>
+            <p>
+              Great design starts with understanding people. We conduct user research, create wireframes and
+              prototypes, and craft polished interfaces that are both beautiful and intuitive.
+            </p>
+            <ul>
+              <li>User research &amp; persona development</li>
+              <li>Information architecture &amp; wireframing</li>
+              <li>High-fidelity UI mockups</li>
+              <li>Interactive prototypes (Figma)</li>
+              <li>Usability testing &amp; iteration</li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary">Start a Project</a>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-item">
+          <div class="service-image">
+            <img src="images/service3.svg" alt="Digital marketing illustration" width="560" height="320" />
+          </div>
+          <div class="service-content">
+            <h2>Digital Marketing</h2>
+            <p>
+              Reach your ideal audience with targeted campaigns that drive meaningful results.
+              Our data-driven approach ensures every pound of your budget works as hard as possible.
+            </p>
+            <ul>
+              <li>Search engine optimisation (SEO)</li>
+              <li>Pay-per-click advertising (Google &amp; Meta)</li>
+              <li>Content strategy &amp; copywriting</li>
+              <li>Social media management</li>
+              <li>Analytics &amp; monthly reporting</li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary">Boost Your Growth</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== Pricing ===== -->
+    <section class="pricing" aria-label="Pricing plans">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Simple, Transparent Pricing</h2>
+          <p class="section-subtitle">Choose the plan that fits your needs. No hidden fees, ever.</p>
+        </div>
+        <div class="pricing-grid">
+
+          <!-- Starter -->
+          <div class="pricing-card">
+            <h3>Starter</h3>
+            <div class="pricing-price">$49<span>/mo</span></div>
+            <p class="pricing-desc">Perfect for individuals and small projects.</p>
+            <ul class="pricing-features">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                1 Website
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                5 Pages
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Basic SEO
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Email Support
+              </li>
+            </ul>
+            <a href="contact.html" class="btn btn-outline" style="width:100%;justify-content:center;">Get Started</a>
+          </div>
+
+          <!-- Professional (Featured) -->
+          <div class="pricing-card featured">
+            <span class="pricing-badge">Most Popular</span>
+            <h3>Professional</h3>
+            <div class="pricing-price">$99<span>/mo</span></div>
+            <p class="pricing-desc">For growing businesses that need more.</p>
+            <ul class="pricing-features">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                3 Websites
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Unlimited Pages
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Advanced SEO
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Priority Support
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Monthly Reports
+              </li>
+            </ul>
+            <a href="contact.html" class="btn btn-primary" style="width:100%;justify-content:center;">Get Started</a>
+          </div>
+
+          <!-- Enterprise -->
+          <div class="pricing-card">
+            <h3>Enterprise</h3>
+            <div class="pricing-price">$249<span>/mo</span></div>
+            <p class="pricing-desc">Powerful solutions for large organisations.</p>
+            <ul class="pricing-features">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Unlimited Websites
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Unlimited Pages
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Full SEO &amp; Analytics
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Dedicated Account Manager
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                     aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                Custom Integrations
+              </li>
+            </ul>
+            <a href="contact.html" class="btn btn-outline" style="width:100%;justify-content:center;">Contact Sales</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA Banner ===== -->
+    <section class="cta-banner" aria-label="Call to action">
+      <div class="container">
+        <h2>Not Sure Which Plan Is Right?</h2>
+        <p>Talk to one of our experts and we'll help you find the perfect fit for your goals.</p>
+        <a href="contact.html" class="btn btn-white">Chat with Us</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <img src="images/logo.svg" alt="Apexify logo" width="32" height="32" />
+            Apexify
+          </a>
+          <p>Crafting exceptional digital experiences for businesses worldwide since 2012.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Web Development</a></li>
+            <li><a href="services.html">UI/UX Design</a></li>
+            <li><a href="services.html">Digital Marketing</a></li>
+            <li><a href="services.html">Consulting</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:hello@apexify.io">hello@apexify.io</a></li>
+            <li><a href="tel:+15551234567">+1 555 123 4567</a></li>
+            <li><a href="contact.html">Get in Touch</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Apexify. All rights reserved.</p>
+        <div class="social-links" aria-label="Social media links">
+          <a href="#" aria-label="Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>
