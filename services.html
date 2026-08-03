@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">My Website</a>
+            <h1 class="logo">My Website</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button id="theme-toggle" aria-label="Toggle dark mode">Toggle Dark Mode</button>
+    </header>
+
+    <section class="services-section container">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="card">
+                <img src="images/design.jpg" alt="About image">
+                <h3>Web Design</h3>
+                <p>Clean, modern layouts built with responsive design principles.</p>
+            </div>
+
+            <div class="card">
+                <img src="images/development.jpg" alt="About image">
+                <h3>Development</h3>
+                <p>HTML, CSS, and JavaScript projects built from scratch.</p>
+            </div>
+            
+            <div class="card">
+                <img src="images/deployment.jpg" alt="About image">
+                <h3>Deployment</h3>
+                <p>Hosting your site on GitHub Pages with version control.</p>
+            </div>
+             
+        </div>
+    </section>
+
+    <footer>
+        <p>(c) 2026 My Website | Designed for Project 2</p>
+    </footer>
+
+     <script>
+  const toggle = document.getElementById('theme-toggle');
+
+  toggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+  });
+</script>
+</body>
+</html>
